@@ -1,0 +1,73 @@
+.md-form {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.md-form video {
+    max-width: 100%;
+    height: auto;
+}
+
+.file-field {
+    position: relative;
+}
+
+.file-field .remove-slide {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.z-depth-1-half {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15) !important;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15) !important;
+}
+
+.btn-mdb-color {
+    color: #fff;
+    background-color: #59698d;
+}
+
+.uploads-wrapper input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.slider-edit {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.slider-edit .add-new {
+    width: 100%;
+    position: relative;
+    margin: 10px 0;
+}
+
+.slider-edit .add-new input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    cursor: pointer;
+}
+
+.upload-wrapper {
+    flex-direction: column;
+}
+
+.upload-wrapper div {
+    margin: 5px 0;
+}
+

@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'CaviarDreams', sans-serif;
+	box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+	text-decoration:none;
+	color: #000;
+}
+
+.info-text {
+	font-family: din-2014, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+.info-text-bold {
+	font-family: din-2014, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.header{
+  position: relative;
+}
+
+.header_fix {
+  position: fixed;
+  width: 100%;
+  max-width: 1325px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 999;
+}
+.top_panel_h1{
+	text-transform:uppercase;
+	font-size: 12.7px;
+}
+.top_panel_nav li{
+	line-height: 2em;
+	list-style: none;
+}
+.h1{
+	text-align: right;
+}
+.main_content_block_h1{
+	margin-top: 12em;
+}
+.main_content_h1 h1{
+	text-align: center;
+	color: #fff;
+	text-transform:uppercase;
+}
+.main_content_p{
+	color: #fff;
+	text-align:center;
+}
+.top_panel_txt{
+	text-align:right;
+}
+.input_main_contact{
+	width: 100%;
+	border-radius: 30px;
+	height: 30px;
+	border-style: none;
+	box-shadow: 7px 5px 12px -1px #868686;
+}
+.button_main_contact{
+	background-color:#fff324;
+	width: 100%;
+	height: 30px;
+	border-radius: 30px;
+	border-style: none;
+	box-shadow: 7px 5px 12px -1px #868686;
+}
+.info_h2{
+	margin-top:150px;
+}
+.header_dec{
+	font-size: 48px;
+}
+.comunication{
+	background-image: url('../img/3.jpg')
+}
+.comunication_h2 h2{
+	color: #fff;
+}
+.infrastructure_oplata{
+	background:url('../img/bg3.jpg')no-repeat top center / cover;
+}
+.oplata_h2{
+	color:#fff;
+}
+.oplata_card_p{
+	color: #626262;
+}
+.footer_h2_h2{
+	font-size: 28px;
+
+}
+.main_content_block_contact{
+	width: 100%;
+}
+.footer_map{
+	border-radius: 30px;
+}
+.input_main_contact_first{
+	width: 100%;
+	border-radius: 30px;
+	height: 30px;
+	padding: 0 15px;
+	border-style: none;
+}
+.button_main_contact_first{
+	background-color:#fff324;
+	width: 100%;
+	height: 30px;
+	border-radius: 30px;
+	border-style: none;
+}
+
+@media all and (max-width: 900px) {
+	.main-slide {
+		background-image: url('/img/slide2.jpg') !important;
+	}
+}
+
+.display-4 {
+	font-size: 30pt !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.list-unstyled li {
+	margin-bottom: 7px;
+}
+
+.scale {
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+.scale:hover {
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  z-index: 10;
+}
+.scale-sm {
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+.scale-sm:hover {
+  -moz-transform: scale(1.025);
+  -o-transform: scale(1.025);
+  -webkit-transform: scale(1.025);
+}
+.scale-md {
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+.scale-md:hover {
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+.card-text{
+	font-size: 15px;
+}
+
+.form-control {
+	border-radius: 20px !important;
+}
+.form-control-sm {
+	border: none;
+}
+
+.btn {
+	border-radius: 20px !important;
+}
+
+.btn-primary {
+	background-color: #fff324 !important;
+}
+
+@media(min-width: 1200px) {
+  .info_micro { margin-top: 295px; }
+}

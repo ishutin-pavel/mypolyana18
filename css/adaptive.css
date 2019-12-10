@@ -1,0 +1,33 @@
+@media all and (max-width : 576px) { 
+	.logo img{
+		width: 100%;
+	}
+	.top_panel h1{
+		font-size: 18px;
+	}
+	.need_hide{
+		visibility: hidden;
+		display: none;
+	}
+	.card{
+		width: 40%
+	}
+	 .text_dec{
+	 	font-size: 12px;
+	 }
+	 .header_dec{
+	 	font-size: 25px;
+	 }
+	 .card-title{
+	 	font-size: 15px;
+	 }
+	 .card-text{
+	 	font-size: 10px;
+	 }
+	 .card_loh{
+	 	width: 10%;
+	 }
+	.infrastructure_oplata{
+		background:url('../img/bg3.jpg') center;
+	}
+ }
