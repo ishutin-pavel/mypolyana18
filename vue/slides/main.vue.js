@@ -87,10 +87,6 @@ const MainContentSlide = Vue.component('main-content', {
           </div>
           <div class="col-12 col-lg-4 contact-button">
             <btn :disabled="!isAgree" type="submit" onclick="ym(55437763, 'reachGoal', 'ekskurs'); return true;">Заказать экскурсию</btn>
-            <small class="text-white text-center">
-              <input type="checkbox" v-model="isAgree">
-              <span style="cursor:pointer" onclick="$('#policyModal').modal('show')">Согласен на обработку персональных данных</span>
-            </small>
           </div>
         </form>
       </div>

@@ -158,10 +158,6 @@ const BuildingSlide = Vue.component('building', {
                     <btn :disabled="!isAgree" type="submit"
                       onclick="ym(55437763, 'reachGoal', ',bana'); return true;"
                     >Заказать</btn>
-                    <small class="text-center">
-                      <input type="checkbox" v-model="isAgree">
-                      <span style="cursor:pointer" onclick="$('#policyModal').modal('show')">Согласен на обработку персональных данных</span>
-                    </small>
                   </div>
                 </form>
               </div>
@@ -195,10 +191,6 @@ const BuildingSlide = Vue.component('building', {
           </div>
           <div class="col-lg-4 col-md-4 m-3 m-lg-0 contact-button">
             <btn :disabled="!isAgree" type="submit">Заказать</btn>
-            <small class="text-center">
-              <input type="checkbox" v-model="isAgree">
-              <span style="cursor:pointer" onclick="$('#policyModal').modal('show')">Согласен на обработку персональных данных</span>
-            </small>
           </div>
         </form>
       </div>

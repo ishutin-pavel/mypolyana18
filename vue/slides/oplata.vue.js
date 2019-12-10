@@ -91,10 +91,6 @@ const OplataSlide = Vue.component('oplata', {
                   <btn :disabled="!isAgree" type="submit"
                     onclick="ym(55437763, 'reachGoal', ',trio'); return true;"
                   >Отправить</btn>
-                  <small class="text-black text-center">
-                    <input type="checkbox" v-model="isAgree">
-                    <span style="cursor:pointer" onclick="$('#policyModal').modal('show')">Согласен на обработку персональных данных</span>
-                  </small>
                 </div>
               </form>
             </div>
